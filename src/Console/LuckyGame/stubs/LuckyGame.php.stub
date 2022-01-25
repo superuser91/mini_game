@@ -1,0 +1,25 @@
+<?php
+
+namespace Console\Stubs;
+
+use Illuminate\Support\Collection;
+use Vgplay\MiniGame\Contracts\Player;
+use Vgplay\MiniGame\Games\LuckyGame;
+
+class LuckyGameStub extends LuckyGame
+{
+    protected function getPool(Player $player): Collection
+    {
+        return collect([]);
+    }
+
+    protected function pay(Player $player, $amount)
+    {
+        # Code
+    }
+
+    protected function saveLog(Player $player, $data)
+    {
+        # Code
+    }
+}

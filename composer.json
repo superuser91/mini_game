@@ -1,0 +1,29 @@
+{
+    "name": "vgplay/mini-game",
+    "description": "Mini games",
+    "type": "package",
+    "require": {
+        "php": "^7",
+        "laravel/framework": "^6|^7|^8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vgplay\\MiniGame\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dung199551",
+            "email": "dung199551@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vgplay\\MiniGame\\MiniGameServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
